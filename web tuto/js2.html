@@ -1,0 +1,30 @@
+<html>
+<head>
+</head>
+
+<body>
+
+<script>
+
+window.onload = function(){
+ showprompt();
+}
+
+function showPrompt(){
+
+var sum = 0;
+
+for (int i=1;; i<=5; i++){
+var mark = window.prompt("Enter Marks ");
+sum = sum + parseInt(mark);
+}
+
+document.write("total ",sum);
+document.write("<br>");
+document.write("avg ",sum/5);
+
+}
+
+</script>
+</body>
+</html>
